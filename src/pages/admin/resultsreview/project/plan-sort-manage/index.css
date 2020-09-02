@@ -1,0 +1,168 @@
+.OverView-left {
+  height: 100%;
+  padding: 16px 8px 16px 16px;
+}
+
+.OverView-right {
+  height: 100%;
+  padding: 16px 16px 16px 8px;
+}
+
+.toolsTitleBox {
+  height: 50px;
+  border-bottom: 1px solid rgba(217, 217, 217, 1);
+  font-weight: 700;
+  line-height: 50px;
+  padding-left: 16px;
+}
+
+.filter_title {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 35px;
+  text-align: left;
+  line-height: 35px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.companyInfoBox {
+  padding: 30px 30px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.addIcon {
+  font-size: 20px;
+  color: #1d7ce4;
+  cursor: pointer;
+}
+
+.filter_content {
+  font-weight: 700;
+  line-height: 35px;
+  font-size: 16px;
+  height: 40px;
+  padding: 0 20px;
+  line-height: 40px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  background: rgba(250, 250, 250, 1);
+  border: 1px solid rgba(198, 198, 198, 1);
+}
+
+.filter_content i {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.filter_wrap_over {
+  box-sizing: border-box;
+  height: 100%;
+  box-shadow: 1px 2px 10px 2px rgba(208, 208, 208, 0.5);
+}
+
+.titleFont {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.zy-main {
+  height: 100%;
+  overflow: hidden;
+}
+
+.middleBox {
+  margin: 30px auto;
+  margin-top: 10px;
+}
+
+.middleBox_btn {
+  width: 85%;
+  margin: 30px auto;
+  margin-bottom: 0;
+}
+
+.toolsTitle {
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 13px;
+  float: left;
+}
+
+.currentDiv {
+  float: right;
+  text-align: right;
+  width: 48%;
+}
+
+.treeSearch {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  background: rgba(247, 247, 247, 1);
+  box-shadow: 0px 1px 3px -1px rgba(153, 153, 153, 0.5);
+  padding: 8px;
+}
+
+.currentDiv > div {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.switch_box {
+  padding: 32px;
+  color: #000000;
+}
+
+.switch_box .tr {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.switch_box .tr .firstTd {
+  width: 100px;
+  color: #484848;
+}
+
+.switch_box .tr .secondTd {
+  width: calc(100% - 100px);
+}
+
+.OverView >>> .el-input--small .el-input__inner {
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+}
+
+.OverView >>> .el-select,
+.OverView >>> .el-input-number--small {
+  width: 100%;
+}
+
+.tr-button {
+  text-align: right;
+  margin-top: 15px;
+}
+
+.addButton {
+  width: 128px;
+  height: 40px;
+  border-radius: 2px;
+  border: 1px solid rgba(27, 116, 238, 1);
+  line-height: 40px;
+  text-align: center;
+  margin: 50px auto 0;
+  color: #1b74ee;
+  cursor: pointer;
+}
+
+.add-tree {
+}

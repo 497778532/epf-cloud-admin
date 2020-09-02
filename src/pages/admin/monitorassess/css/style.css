@@ -1,0 +1,148 @@
+.choice_case {
+  margin: 20px 0 0 10px;
+  overflow: hidden;
+}
+
+.choice_core {
+  overflow: hidden;
+}
+
+.choice_bus {
+  float: left;
+}
+
+.choice_bus .el-button--primary {
+  background-color: #5290f2;
+  border-radius: 5px;
+  border: 1px solid #5290f2;
+  color: #fff;
+}
+
+.choice_bus .el-input--small {
+  padding: 0
+}
+
+.choice_bus .el-input--small .el-input__inner {
+  height: 40px;
+  line-height: 40px;
+  background-color: #5290f2;
+  border-radius: 5px;
+  border: 1px solid #5290f2;
+  color: #fff;
+}
+
+.choice_bus .el-input__icon {
+  color: #fff;
+}
+
+.choice_bus .el-select__caret {
+  color: #fff;
+}
+
+.choice_tab {
+  float: right;
+}
+
+.choice_tab_ul {
+  overflow: hidden;
+}
+
+.choice_tab_ul>li {
+  float: left;
+  cursor: pointer;
+}
+
+.choice_tab_ul>li:nth-child(2) {
+  margin-left: 30px;
+}
+
+.tab_content {
+  /* margin-top: 30px; */
+  position: absolute;
+  top: 190px;
+  bottom: 50px;
+  left: 210px;
+  right: 420px;
+  overflow: hidden;
+}
+
+.tab_content_ul>li {
+  width: 100%;
+  height: 600px;
+}
+
+.norm {
+  width: 24%;
+  float: right;
+  height: 700px;
+  /* padding: 20px 40px;
+    margin-top: 84px; */
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.norm::-webkit-scrollbar {
+  display: none;
+}
+
+/* .el-input__prefix {
+    left: inherit;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    right: 20px;
+  } */
+
+/* .el-menu {
+    border: 0;
+  }
+  .el-submenu .el-menu-item {
+    padding-left: 60px !important;
+  }
+  .el-submenu__title span,
+  .el-menu-item {
+    font-size: 18px !important;
+  }
+  .el-submenu__title i {
+    margin-right: 10px;
+  } */
+
+.jcpgyj-mainchart {
+  width: 100%;
+  height: 80%;
+}
+
+.bottonParent {
+  border: 1px solid rgba(151, 151, 151, 1);
+  border-radius: 11px;
+  font-size: 0;
+  float: right;
+}
+
+.bottonParent span {
+  cursor: pointer;
+  padding: 2px 15px;
+  font-size: 16px;
+  color: rgba(104, 104, 104, 1);
+}
+
+.bottonParent .active {
+  border-radius: 11px;
+  background-color: rgba(29, 124, 228, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.tabHeader {
+  margin-top: 10px;
+  font-size: 12px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.more {
+  color: rgba(29, 124, 228, 1);
+  cursor: pointer;
+  float: right;
+  padding: 2px 0 2px 15px;
+}

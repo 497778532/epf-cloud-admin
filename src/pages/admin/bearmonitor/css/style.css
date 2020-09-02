@@ -1,0 +1,79 @@
+.main-container {
+  position: relative;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0.35fr;
+  grid-column-gap: 20px;
+}
+
+.map-box {
+  position: relative;
+  box-shadow: 1px 3px 12px 5px rgba(0, 0, 0, 0.06);
+}
+.mapapp {
+  height: 100%;
+  width: 100%;
+}
+
+.toolbar {
+  top: 1rem;
+  right: 0.9rem;
+}
+
+.sidebar {
+  box-shadow: 1px 3px 12px 5px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: overlay;
+}
+
+.sidebar .sidebar-title {
+  position: relative;
+  height: 30px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  color: #202020;
+}
+
+.sidebar-content-header {
+  position: relative;
+  height: 44px;
+  width: 100%;
+  color: #202020;
+  display: flex;
+  padding: 0 10px;
+}
+
+.sidebar-content-main {
+  height: calc(100% - 44px);
+  width: 100%;
+  padding: 0 10px;
+}
+
+.title-icon {
+  width: 4px;
+  height: 16px;
+  background: rgba(82, 144, 242, 1);
+  border-radius: 2px;
+  position: absolute;
+  left: 10px;
+}
+
+.title-text {
+  position: absolute;
+  left: 24px;
+}
+
+.text-wrapper {
+  white-space: pre-wrap;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,272 @@
+.three-Line {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: rgba(32, 32, 32, 1);
+}
+
+.main {
+    position: relative;
+    background: #e9eef3;
+    box-shadow: 1px 3px 12px 5px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+}
+
+.aside {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 1px 3px 12px 5px rgba(0, 0, 0, 0.06);
+}
+
+.epf-block__zoom {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+#sun {
+    width: 400px;
+    height: 400px;
+}
+
+.button-list {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.aside>>>.el-collapse {
+    border: unset;
+    overflow: hidden;
+}
+
+.middle-middle-message-box {
+    width: 12px;
+    height: 192px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.middle-middle-message-boxL {
+    background-image: url("../../../../../assets/images/jcpgyj/map00L.png");
+}
+
+.middle-middle-message-boxR {
+    background-image: url("../../../../../assets/images/jcpgyj/map00R.png");
+}
+
+.left-top {
+    height: 4%;
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 0.5%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.left-top-button {
+    margin-left: auto;
+}
+
+.left-top-button-tab {
+    color: #303030;
+    cursor: pointer;
+}
+
+.left-top-button-tab.active {
+    color: #1d7ce4;
+}
+
+.time-line {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #000;
+}
+
+.time-line .line {
+    height: 2px;
+    background: #000;
+    width: 120px;
+}
+
+.time-line .cicyle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #1D7CE4;
+    position: relative;
+    cursor: pointer;
+}
+
+.time-line .cicyle.active {
+    background-color: #1D7CE4;
+    border: 1px solid #fff;
+}
+
+.time-line .text {
+    position: absolute;
+    left: -10px;
+    top: 15px;
+}
+
+#change {
+    width: 367px;
+    height: 196px;
+}
+
+.detailList {}
+
+#bigProjects {
+    width: 367px;
+    height: 196px;
+    margin-top: 5px;
+}
+
+.fl {
+    margin-left: auto;
+}
+
+.epf-table {
+    width: 30%;
+    height: 95%;
+    position: absolute;
+    left: 22px;
+    top: 5%;
+    /* display: flex;
+flex-direction: column; */
+}
+
+.epf-table .outDiv {
+    box-shadow: 1px 3px 12px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 7px;
+    background: #fff;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.epf-table .lastDiv {
+    box-shadow: 1px 3px 12px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 7px;
+    background: #fff;
+    width: 100%;
+}
+
+.one-header {
+    display: flex;
+    align-items: center;
+}
+
+.one-header__left {
+    display: flex;
+    align-items: center;
+}
+
+.one-header__right {
+    padding: 3px 15px;
+    border-radius: 8px;
+    margin-left: auto;
+}
+
+.one-content {
+    height: 60%;
+}
+
+.one-content__ing {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.bigProject span:nth-child(2) {
+    margin-left: auto;
+    font-size: 16px;
+}
+
+.one-content__ing span:nth-child(1) {
+    font-size: 18px;
+}
+
+.one-content__ing span:nth-child(2) {
+    margin-left: auto;
+    color: rgba(103, 194, 58, 1);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.one-contet__will {
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
+
+.one-contet__will span:nth-child(1) {}
+
+.one-contet__will span:nth-child(2) {
+    margin-left: auto;
+}
+
+.header {
+    height: 10%;
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 1.5% 0;
+    font-size: 18px;
+}
+
+.header2 {
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 1.5% 0;
+}
+
+.header>div {
+    height: 50%;
+}
+
+.content {
+    display: flex;
+}
+
+.icon {
+    color: #1D7CE4;
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.three-Line .el-row {
+    margin-bottom: 0;
+}
+
+.haha {
+    height: 30%;
+}
+
+.bigProject {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.showBigClass {
+    cursor: pointer;
+    color: #7f7f7f;
+}
+
+.showBigClass>div:hover {
+    color: rgba(8, 104, 209, 1)
+}
+
+.unitArr {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.number {
+    margin-right: 3px;
+}

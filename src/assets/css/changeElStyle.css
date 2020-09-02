@@ -1,0 +1,6 @@
+.el-dialog__headerbtn .el-dialog__close {
+    font-size: 16px;
+    padding: 2px;
+    border: 1px solid #a4a4a4;
+    border-radius: 50%;
+}

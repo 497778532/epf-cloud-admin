@@ -1,0 +1,200 @@
+.button_border {
+  margin: 0 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 60px;
+  height: 34px;
+  padding: 0 10px;
+  border: 1px solid #1e7ae5;
+  background: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #1e7ae5;
+  text-align: center;
+  line-height: 32px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button_border:hover {
+  transform: translateY(-3px);
+}
+
+.button_bg {
+  margin: 0 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 60px;
+  height: 34px;
+  padding: 0 10px;
+  background: #1e7ae5;
+  border: 1px solid #1e7ae5;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 32px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button_bg:hover {
+  transform: translateY(-3px);
+}
+
+.button_default {
+  margin: 0 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 60px;
+  padding: 0 10px;
+  height: 34px;
+  border: 1px solid #dddddd;
+  background: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  color: rgb(71, 71, 71);
+  text-align: center;
+  line-height: 32px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button_default:hover {
+  transform: translateY(-3px);
+}
+
+/* 按钮居中盒子 */
+
+.bottonBox_center {
+  text-align: center;
+}
+
+.el-radio__inner {
+  width: 16px;
+  height: 16px;
+}
+
+.el-step__head.is-process {
+  color: #1e7ae5;
+  border-color: #1e7ae5;
+}
+
+.el-step__title.is-process {
+  font-weight: 700;
+  color: #1e7ae5;
+}
+
+.el-radio__input.is-checked + .el-radio__label {
+  color: #1e7ae5;
+}
+
+/* 弹框中内容滚动 */
+
+.abow_dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.abow_dialog .el-dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto !important;
+  max-height: 90%;
+  overflow: hidden;
+}
+
+.abow_dialog .el-dialog .el-dialog__body {
+  height: 80%;
+  padding: 20px 20px;
+  z-index: 1;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.el-dialog__footer {
+  box-sizing: border-box;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* loading颜色 */
+
+.el-loading-spinner .path {
+  stroke: #1e7ae5;
+}
+
+.el-loading-spinner .circular {
+  width: 50px;
+  height: 50px;
+}
+
+.el-loading-spinner .el-loading-text {
+  color: #1e7ae5;
+  font-size: 14px;
+}
+
+/* 控制台卡片head的样式覆盖 */
+
+.el-card__header {
+  padding: 10px 20px;
+}
+
+.menuRightItem:hover {
+  cursor: pointer;
+  background: rgba(241, 241, 241, 0.904) !important;
+}
+
+/* 隐藏IE浏览器自带的 X 和 眼睛 */
+
+input::-ms-reveal {
+  display: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+/* 按钮样式 */
+.button_qian {
+  height: 40px;
+  padding: 0px 32px;
+  background: rgba(233, 243, 255, 1);
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: rgba(27, 116, 238, 1);
+  line-height: 40px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+.button_shen {
+  height: 40px;
+  padding: 0px 32px;
+  background: rgba(27, 116, 238, 1);
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: rgba(255, 255, 255, 1);
+  line-height: 40px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+.button_kuang {
+  height: 40px;
+  padding: 0px 32px;
+  border-radius: 2px;
+  border: 1px solid rgba(27, 116, 238, 1);
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: rgba(27, 116, 238, 1);
+  line-height: 40px;
+  margin-left: 16px;
+  cursor: pointer;
+}

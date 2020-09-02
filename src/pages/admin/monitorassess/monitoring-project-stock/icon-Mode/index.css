@@ -1,0 +1,131 @@
+.zebra .el-table td {
+  padding: 0;
+}
+
+.zebra .el-table {
+  color: rgba(80, 165, 244, 1);
+}
+
+.zebra .el-table .table-text {
+  color: rgba(89, 89, 89, 1)
+}
+
+.zebra .el-table .cell {
+  padding-left: 17px;
+}
+
+.zebra .el-table th>.cell {
+  padding-left: 17px;
+}
+
+.zebra .el-table__footer .el-table .cell {
+  padding: 8px 0;
+}
+
+.zebra .el-table .el-table__header thead th {
+  background: rgba(246, 246, 246, 1);
+}
+
+.zebra .el-table thead {
+  color: rgba(85, 85, 85, 1);
+}
+
+/* .zebra .el-table--border th {
+  border-right: 1px solid rgba(151, 151, 151, 1);
+}
+
+.zebra .el-table--border th:last-child {
+  border-right: none;
+} */
+
+/* .zebra .el-table--border td {
+  border-right: 1px solid rgba(151, 151, 151, 1);
+}
+
+.zebra .el-table--border td:last-child {
+  border-right: none;
+} */
+
+.zebra .el-table td, .el-table th {
+  padding: 6px 0
+}
+
+/* .zebra .el-table td,
+.zebra .el-table th.is-leaf {
+  border-bottom: 1px solid rgba(151, 151, 151, 1);
+} */
+
+.zebra .el-table thead {
+  color: rgba(85, 85, 85, 1);
+}
+
+/* .zebra
+ .el-table--border th,
+.zebra
+ .el-table__fixed-right-patch {
+  border-bottom: 1px solid rgba(151, 151, 151, 1);
+} */
+
+/* .zebra
+ .el-table--border,
+.zebra
+ .el-table--group {
+  border: 1px solid rgba(151, 151, 151, 1);
+} */
+
+.zebra .el-table th, .zebra .el-table tr {
+  height: 27px;
+}
+
+.zebra .el-table__footer-wrapper tbody td {
+  background-color: #fff;
+}
+
+/* 
+.zebra
+ .el-table__footer-wrapper td {
+  border-top: 1px solid rgba(151, 151, 151, 1);
+} */
+
+.zebra .el-table th.gutter {
+  display: table-cell !important
+}
+
+.zebra .el-input__inner {
+  height: 36px;
+  line-height: 36px;
+}
+
+.zebra .fanye {
+  padding: 5px 0;
+}
+
+.zebra .fanye .el-input__inner {
+  height: 28px;
+  line-height: 28px;
+}
+
+.el-row-contain>.el-row:hover {
+  color: rgba(82, 144, 242, 1);
+}
+
+.el-scrollbar__wrap, .searchVue .el-scrollbar__wrap {
+  overflow-x: hidden;
+}
+
+.zebra .el-scrollbar__bar {
+  right: -9px
+}
+
+.zebra .el-checkbox__inner {
+  width: 16px;
+  height: 16px;
+}
+
+.zebra .el-checkbox__label {
+  font-size: 16px;
+}
+
+.zebra .el-checkbox {
+  margin-top: 10px;
+}

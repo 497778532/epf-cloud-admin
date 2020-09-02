@@ -1,0 +1,44 @@
+#定义 stages，用来定义工作阶段，多个 stages 会按顺序进行
+stages:
+  - build
+  - deploy_test
+  - deploy_production
+
+# 设置缓存 
+cache:
+  paths:
+    - node_modules/
+    - dist/
+
+# 安装依赖 before_script 会在每个 stages 执行之前运行
+before_script:
+- npm install
+
+# 编译 这里对应上方 stages ，
+build:
+  stage: build 
+  tags: 
+  - epf-cloud-admin
+  script:    # script 为要执行的命令，可以多条按顺序执行
+    - npm run build
+
+# 部署测试服务器 
+deploy_test:
+  stage: deploy_test
+  tags:
+  - epf-cloud-admin
+  only:    # only 定义触发分支，即只有在dev分支提交是  才执行以下命令
+    - dev
+  script:
+    - bash scripts/dev.sh
+
+
+# 部署生产服务器
+deploy_production:
+  stage: deploy_production
+  tags:
+  - epf-cloud-admin
+  only:
+    - master
+  script:
+    - bash scripts/deploy.sh
